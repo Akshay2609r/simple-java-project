@@ -1,8 +1,10 @@
-# This is a basic workflow to help you get started with Actions
-
-name: SONAR-CI
-
-
+---
+###########################
+###########################
+## AKSHAY GitHub Actions ##
+###########################
+###########################
+name: SonarCloud Scan
 
 #
 # Documentation:
@@ -12,7 +14,7 @@ name: SONAR-CI
 #############################
 # Start the job on all push #
 #############################
-on: workflow_dispatch
+on:
   push:
     branches:
       - "master"
